@@ -1,3 +1,37 @@
-img:hover {
-  cursor: pointer;
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+/* GLOBAL */
+
+body {
+  background-color: #2b2b2b;
+}
+
+/* HOME */
+
+.front {
+  padding-left: 20%;
+  color:rgb(255, 255, 255);
+  text-align: left;
+}
+
+#msg {
+  padding-top: 15%;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  font-family: "Raleway";
+  font-size: 8vmin;
+}
+
+#subtitle {
+  font-family: "Merriweather Sans";
+  font-weight: lighter;
+  font-size: 3vmin;
+}
+
+#image { 
+  padding-top: -100%;
+  max-width: 100%;
+  height: auto;
 }
