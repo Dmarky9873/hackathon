@@ -22,8 +22,16 @@
   </head>
 
   <body>
-    <h1 id="msg" style="color: rgb(255, 43, 0)">Daniel is cool</h1>
-    <img src="./public/images/image.jpg" alt="" id="god" style="scale: 0.5" />
+    <svg id="image" width="60\0" height="400">
+      <mask id="svgmask1">
+        <polygon fill="#ffffff" points="400 0, 400 400, 0 1"></polygon>
+      </mask>
+      <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./public/images/image.jpg" mask="url(#svgmask1)"></image>
+    </svg>
+    <div class = "front">
+      <p id="msg">An accessible  <br> image dashboard.</p>
+      <p id="subtitle">a hackathon project. for the students of Crestwood</p>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
